@@ -1,0 +1,53 @@
+2021-10-16 11:16:13,520 - pyswarms.backend.generators - ERROR - generate_swarm() takes an int for n_particles and dimensions and an array for bounds
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pyswarms\backend\generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+  File "mtrand.pyx", line 1098, in numpy.random.mtrand.RandomState.uniform
+TypeError: Cannot cast array data from dtype('O') to dtype('float64') according to the rule 'safe'
+2021-10-16 11:18:07,814 - pyswarms.backend.generators - ERROR - generate_swarm() takes an int for n_particles and dimensions and an array for bounds
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pyswarms\backend\generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+  File "mtrand.pyx", line 1098, in numpy.random.mtrand.RandomState.uniform
+TypeError: Cannot cast array data from dtype('O') to dtype('float64') according to the rule 'safe'
+2021-10-16 11:21:29,824 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2021-10-16 11:22:34,316 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2021-10-16 11:24:05,392 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2021-10-16 11:24:56,413 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2021-10-16 11:26:04,355 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2021-10-16 11:28:27,027 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2021-10-16 11:31:52,402 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2021-10-16 11:48:43,422 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2021-10-16 15:24:43,069 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (2,)
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pyswarms\backend\generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+  File "mtrand.pyx", line 1121, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 541, in numpy.random._common.cont
+  File "_common.pyx", line 458, in numpy.random._common.cont_broadcast_2
+  File "__init__.pxd", line 741, in numpy.PyArray_MultiIterNew3
+ValueError: shape mismatch: objects cannot be broadcast to a single shape
+2021-10-16 15:25:06,819 - pyswarms.utils.plotters.plotters - ERROR - Please check your input type
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pyswarms\utils\plotters\plotters.py", line 114, in plot_cost_history
+    iters = len(cost_history)
+TypeError: object of type 'function' has no len()
+2021-10-16 15:34:49,016 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (2,)
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pyswarms\backend\generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+  File "mtrand.pyx", line 1121, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 541, in numpy.random._common.cont
+  File "_common.pyx", line 458, in numpy.random._common.cont_broadcast_2
+  File "__init__.pxd", line 741, in numpy.PyArray_MultiIterNew3
+ValueError: shape mismatch: objects cannot be broadcast to a single shape
+2021-10-16 15:35:09,700 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (2,)
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pyswarms\backend\generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+  File "mtrand.pyx", line 1121, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 541, in numpy.random._common.cont
+  File "_common.pyx", line 458, in numpy.random._common.cont_broadcast_2
+  File "__init__.pxd", line 741, in numpy.PyArray_MultiIterNew3
+ValueError: shape mismatch: objects cannot be broadcast to a single shape
+2021-10-16 15:39:28,433 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
